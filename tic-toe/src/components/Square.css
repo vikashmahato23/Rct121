@@ -1,0 +1,39 @@
+.boardApp{
+    border: 1px solid black;
+    width: 500px;
+    height: 550px;
+    margin: auto;
+
+    margin-top: 100px;
+    /* left: 800px; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    
+}
+.boardApp>div{
+    border: 1px solid red;
+}
+.square>p{
+    /* border: 1px solid red; */
+   text-align: center;
+    font-size: 54px;
+    transform: rotate(45);
+    animation-name: rotate;
+ 
+}
+.res{
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    top: 220px;
+    left: 330px;
+
+}
+.res>p{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 54px;
+   
+
+}
