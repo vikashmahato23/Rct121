@@ -7,7 +7,7 @@
       "paymentMethods": {
         "card": false,
         "cash": true,
-        "upi": false
+        "upi": true
       },
       "votes": 498,
       "review": "1",
