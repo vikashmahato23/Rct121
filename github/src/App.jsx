@@ -5,7 +5,7 @@ import { Github } from './components/Github Repositories';
 import { useCallback,useState } from 'react';
 
 function App() {
-  const[value,setValue]=useState("instagram")
+  const[value,setValue]=useState("react")
 
   const callback = useCallback((value) => {
     setValue(value);
